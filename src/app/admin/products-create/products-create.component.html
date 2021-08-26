@@ -1,7 +1,7 @@
-<form>
+<form (submit)="submit()">
   <label>Title</label>
-  <input type="text" name="title" />
+  <input type="text" name="title" [(ngModel)]="title" />
   <label>Image</label>
-  <input type="text" name="image" />
+  <input type="text" name="image" [(ngModel)]="image" />
   <button type="submit">Add Product</button>
 </form>
