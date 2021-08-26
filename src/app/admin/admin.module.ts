@@ -6,8 +6,7 @@ import { NavComponent } from './nav/nav.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductsCreateComponent } from './products-create/products-create.component';
 import { ProductsEditComponent } from './products-edit/products-edit.component';
-
-
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,10 +15,8 @@ import { ProductsEditComponent } from './products-edit/products-edit.component';
     NavComponent,
     ProductsComponent,
     ProductsCreateComponent,
-    ProductsEditComponent
+    ProductsEditComponent,
   ],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule, RouterModule],
 })
-export class AdminModule { }
+export class AdminModule {}
