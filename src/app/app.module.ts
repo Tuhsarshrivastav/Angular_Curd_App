@@ -16,7 +16,6 @@ import { MainModule } from './main/main.module';
     AdminModule,
     MainModule,
     HttpClientModule,
-    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
